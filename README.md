@@ -31,11 +31,11 @@ The audio files shown are not bundled with the addon.
 
 ### Browse and inspect audio
 
-![Audio Library in Godot, showing indexed audio files, clip metadata and the waveform](docs/screenshots/audio-library-browser.png)
+![Audio Library in Godot, showing indexed audio files, clip metadata and the waveform](docs/screenshots/audio-library-browser.jpg)
 
 ### Prepare a non-destructive trim
 
-![Audio Library with a two-second trim start and WAV export controls](docs/screenshots/audio-library-trim.png)
+![Audio Library with a two-second trim start and WAV export controls](docs/screenshots/audio-library-trim.jpg)
 
 The shaded waveform marks the excluded opening two seconds. The selection is
 an editing recipe; the original audio file is unchanged. No export is claimed
