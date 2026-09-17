@@ -2,7 +2,7 @@
 
 **Coming soon — development source, not a stable release.**
 
-A standalone Godot editor addon for searching your audio collection, auditioning
+A free, MIT-licensed Godot editor addon for searching your audio collection, auditioning
 clips, editing selections and exporting game-ready copies. Our first planned
 community tool from GameDevBuddy and Peligro Express.
 
@@ -66,7 +66,7 @@ Before the first release:
 - Trial a large real library and tune scan/search responsiveness.
 - Review editor layout, waveform editing and audible preview/loop behaviour.
 - Confirm supported engine versions and platforms.
-- Finish release packaging, usage documentation and licensing.
+- Finish release packaging and usage documentation.
 
 Directory links are skipped while scanning. Export checks reject source-library
 writes and detected filesystem aliases. Nearby README/LICENSE documents are
@@ -75,6 +75,7 @@ percentage. Large audio masters can take time to decode.
 
 ## Project status
 
-Issues are enabled for development feedback. Pricing, distribution terms and the
-licence for the first release have not been announced. "Coming soon" is the
-current release status; no launch date is promised.
+Issues are enabled for development feedback. The addon is **free and licensed
+under the [MIT License](LICENSE)**. "Coming soon" is the current release status;
+no launch date is promised. The licence covers this addon source, not the audio
+files you bring to it or separately installed FFmpeg binaries.
