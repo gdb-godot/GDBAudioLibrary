@@ -1,6 +1,6 @@
 # GDB Audio Library
 
-**Coming soon — development source, not a stable release.**
+**Coming soon â€” development source, not a stable release.**
 
 A free, MIT-licensed Godot editor addon for searching your audio collection, auditioning
 clips, editing selections and exporting game-ready copies. Our first planned
@@ -21,6 +21,25 @@ No release package or supported production version has been published.
 WAV, OGG and MP3 preview through Godot. FLAC, AIF, AIFF and M4A use FFmpeg for
 cached WAV previews. FFmpeg also provides probing, waveform generation and export.
 Bring your own audio and FFmpeg executable; neither is bundled with this source.
+
+## Editor screenshots
+
+Captured from the real addon running in Godot 4.7.2 on 17 September 2026.
+This is the current development interface, using a small external collection;
+these screenshots are not evidence of full-library performance or release readiness.
+The audio files shown are not bundled with the addon.
+
+### Browse and inspect audio
+
+![Audio Library in Godot, showing indexed audio files, clip metadata and the waveform](docs/screenshots/audio-library-browser.png)
+
+### Prepare a non-destructive trim
+
+![Audio Library with a two-second trim start and WAV export controls](docs/screenshots/audio-library-trim.png)
+
+The shaded waveform marks the excluded opening two seconds. The selection is
+an editing recipe; the original audio file is unchanged. No export is claimed
+by this screenshot.
 
 ## Development installation
 
